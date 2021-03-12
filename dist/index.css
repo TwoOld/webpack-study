@@ -1,0 +1,4 @@
+/* body {
+    background: red;
+} */
+body div{border:1px solid #4169e1;display:-webkit-box;display:-ms-flexbox;display:flex}

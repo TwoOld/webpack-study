@@ -1,0 +1,14 @@
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[css]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+    "[less]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
+}

@@ -102,11 +102,10 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /*!****************************!*\
   !*** ./src/css/index.less ***!
   \****************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/*! no static exports found */
+/***/ (function(module, exports) {
 
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extract-plugin\n\n\n//# sourceURL=webpack:///./src/css/index.less?");
+eval("\n    const tag = document.createElement(\"style\");\n    tag.innerHTML = \"body div {\\n  border: 1px solid royalblue;\\n  display: flex;\\n}\\n\"\n    document.head.appendChild(tag)\n  \n\n//# sourceURL=webpack:///./src/css/index.less?");
 
 /***/ }),
 
@@ -118,7 +117,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n// extracted by mini-css-extr
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/index.css */ \"./src/css/index.css\");\n/* harmony import */ var _css_index_less__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/index.less */ \"./src/css/index.less\");\n\n\n// spa mpa\n// team or one\n// 样式部分\n// 原生的样式-less/scss/stylus/postcss\n// JS部分\n// es6+ vue react\n// html引擎模板\n\n// babel 处理JS\n// postcss 处理CSS\n\n// browserslist 声明浏览器的集合，设置目标浏览器的工具\n// 使用场景\n// 1.package.json\n// \"browserslist\": [\"last 2 versions\", \">1%\"]\n// 2..browserslistrc\n\n// CSS 优化\n// 1.去掉冗余\n// 2.压缩\nconsole.log('hi cyzy');\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css_index_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./css/index.css */ \"./src/css/index.css\");\n/* harmony import */ var _css_index_less__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./css/index.less */ \"./src/css/index.less\");\n/* harmony import */ var _css_index_less__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_css_index_less__WEBPACK_IMPORTED_MODULE_1__);\n\n\n// spa mpa\n// team or one\n// 样式部分\n// 原生的样式-less/scss/stylus/postcss\n// JS部分\n// es6+ vue react\n// html引擎模板\n\n// babel 处理JS\n// postcss 处理CSS\n\n// browserslist 声明浏览器的集合，设置目标浏览器的工具\n// 使用场景\n// 1.package.json\n// \"browserslist\": [\"last 2 versions\", \">1%\"]\n// 2..browserslistrc\n\n// CSS 优化\n// 1.去掉冗余\n// 2.压缩\nconsole.log('hi cyzy');\n\n//# sourceURL=webpack:///./src/index.js?");
 
 /***/ })
 

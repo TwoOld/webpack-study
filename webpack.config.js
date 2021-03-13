@@ -33,14 +33,14 @@ module.exports = {
                     'css-loader'
                 ]
             },
-            {
-                test: /\.less$/,
-                use: [minicssextractplugin.loader, 'css-loader', 'postcss-loader', 'less-loader']
-            },
             // {
             //     test: /\.less$/,
             //     use: [minicssextractplugin.loader, 'css-loader', 'postcss-loader', 'less-loader']
             // },
+            {
+                test: /\.less$/,
+                use: ['i-style-loader', 'i-css-loader', 'i-less-loader']
+            },
             {
                 test: /\.js$/,
                 use: [
